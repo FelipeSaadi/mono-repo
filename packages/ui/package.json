@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
+  "files": ["tailwind.config.ts", "postcss.config.js", "globals.css"],
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",

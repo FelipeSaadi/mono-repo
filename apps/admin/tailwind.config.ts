@@ -1,4 +1,5 @@
 import { fontFamily } from "tailwindcss/defaultTheme";
+import baseConfig from "@repo/ui/tailwind.config";
 import type { Config } from "tailwindcss";
 
 const config = {
@@ -10,6 +11,7 @@ const config = {
     "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
+  presets: [baseConfig],
   theme: {
     container: {
       center: true,
