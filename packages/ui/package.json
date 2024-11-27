@@ -9,7 +9,8 @@
     "./card": "./src/components/card.tsx",
     "./code": "./src/components/code.tsx",
     "./postcss": "./postcss.config.js",
-    "./tailwind.config": "./tailwind.config.ts"
+    "./tailwind.config": "./tailwind.config.ts",
+    "./globals.css": "./src/globals.css"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
