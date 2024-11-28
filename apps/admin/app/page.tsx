@@ -11,15 +11,15 @@ import {
   Users,
 } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Badge } from "@repo/ui/badge";
+import { Button } from "@repo/ui/button3";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@repo/ui/card2";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -27,9 +27,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { ModeToggle } from "@/components/ui/mode-toggle";
+} from "@repo/ui/dropdown-menu";
+import { Sheet, SheetContent, SheetTrigger } from "@repo/ui/sheet";
+import { ModeToggle } from "@repo/ui/mode-toggle";
 import Orders from "@/components/features/orders";
 import AdminSearch from "@/components/features/admin-search";
 

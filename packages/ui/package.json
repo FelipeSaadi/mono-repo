@@ -9,11 +9,19 @@
     "globals.css"
   ],
   "exports": {
+    "./badge": "./src/components/badge.tsx",
     "./button": "./src/components/button.tsx",
     "./button2": "./src/components/button2.tsx",
+    "./button3": "./src/components/button3.tsx",
     "./card": "./src/components/card.tsx",
+    "./card2": "./src/components/card2.tsx",
     "./code": "./src/components/code.tsx",
+    "./dropdown-menu": "./src/components/dropdown-menu.tsx",
+    "./input": "./src/components/input.tsx",
+    "./mode-toggle": "./src/components/mode-toggle.tsx",
+    "./sheet": "./src/components/sheet.tsx",
     "./table": "./src/components/table.tsx",
+    "./theme-provider": "./src/components/theme-provider.tsx",
     "./postcss.config": "./postcss.config.js",
     "./tailwind.config": "./tailwind.config.ts",
     "./globals.css": "./src/globals.css"
