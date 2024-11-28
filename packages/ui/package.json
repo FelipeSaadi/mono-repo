@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
-  "files": ["tailwind.config.ts", "postcss.config.js", "globals.css"],
+  "files": [
+    "tailwind.config.ts",
+    "postcss.config.js",
+    "globals.css"
+  ],
   "exports": {
     "./button": "./src/components/button.tsx",
+    "./button2": "./src/components/button2.tsx",
     "./card": "./src/components/card.tsx",
     "./code": "./src/components/code.tsx",
     "./postcss": "./postcss.config.js",
@@ -24,10 +29,15 @@
     "@types/node": "^20.11.24",
     "@types/react": "18.3.0",
     "@types/react-dom": "18.3.1",
+    "postcss-import": "^16.1.0",
     "typescript": "5.5.4"
   },
   "dependencies": {
+    "postcss": "^8.4.47",
     "react": "19.0.0-rc-5c56b873-20241107",
-    "react-dom": "19.0.0-rc-5c56b873-20241107"
+    "react-dom": "19.0.0-rc-5c56b873-20241107",
+    "tailwind-merge": "2.5.3",
+    "tailwindcss": "^3.4.13",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
