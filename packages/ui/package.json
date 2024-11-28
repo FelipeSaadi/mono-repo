@@ -6,7 +6,8 @@
   "files": [
     "tailwind.config.ts",
     "postcss.config.js",
-    "globals.css"
+    "globals.css",
+    "utils"
   ],
   "exports": {
     "./badge": "./src/components/badge.tsx",
@@ -24,7 +25,8 @@
     "./theme-provider": "./src/components/theme-provider.tsx",
     "./postcss.config": "./postcss.config.js",
     "./tailwind.config": "./tailwind.config.ts",
-    "./globals.css": "./src/globals.css"
+    "./globals.css": "./src/globals.css",
+    "./utils": "./src/utils"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
