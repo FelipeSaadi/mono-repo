@@ -13,7 +13,8 @@
     "./button2": "./src/components/button2.tsx",
     "./card": "./src/components/card.tsx",
     "./code": "./src/components/code.tsx",
-    "./postcss": "./postcss.config.js",
+    "./table": "./src/components/table.tsx",
+    "./postcss.config": "./postcss.config.js",
     "./tailwind.config": "./tailwind.config.ts",
     "./globals.css": "./src/globals.css"
   },
